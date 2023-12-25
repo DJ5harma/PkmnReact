@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: -10px;
+    padding-bottom: 20px;
+    border-top: solid;
+    
+    background-color: rgba(0, 0, 0, 0.91);
+    background-image: linear-gradient(to right, black, rgb(57, 55, 55));
+}
+
+#pokemon-name{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom:10px;
+    /* padding: 10px; */
+    
+    /* color: white; */
+    
+    
+    /* border-top: solid 10px; */
+    border-right: solid;
+    border-left: solid;
+    
+    /* border-radius: 20px 20px 0 0; */
+    
+}
+#pokemon-name > span{
+    /* background-color: white; */
+    /* padding: 0 20vw; */
+    /* width: 20vw; */
+    color: white;
+    
+    font-size: 30px;
+    padding: 10px 0;
+
+    /* border: solid; */
+}
+
+
+
+/* -------------------------------------------------------------- */
+.types-box{
+    margin: 10px 0 10px 0;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    
+    /* border: solid; */
+}
+.types-box > span{
+    font-size: 28px;
+    padding: 8px 15px;
+    /* border: solid; */
+    
+    margin: 6px 6px 10px;
+    border-radius: 10px;
+    
+    color: white;
+    box-shadow: 0px 0px 1px 3px white;
+}
+.grass{background-color: rgb(2, 178, 2);}
+.poison{background-color: blueviolet;}
+.fire{background-color: orangered;}
+.flying{background-color: cornflowerblue;}
+.dragon{background-color: blue;}
+.water{background-color: rgb(0, 185, 185);}
+.fairy{background-color: rgb(248, 170, 183);}
+.psychic{background-color: palevioletred;}
+.ground{background-color: burlywood;}
+.rock{background-color: saddlebrown;}
+.bug{background-color: yellowgreen;}
+.ghost{background-color: darkmagenta;}
+.dark{background-color: rgba(0, 0, 0, 0.91);}
+.fighting{background-color: brown;}
+.steel{background-color: grey;}
+.ice{background-color: aquamarine;}
+.electric{background-color: rgb(229, 229, 43); color: black;}
+.normal{background-color: rgb(169, 174, 131);}
+
+/* -------------------------------------------------------------- */
+.pokemon-pic{
+    /* display: block; */
+    /* border: solid; */
+
+    margin: 30px 0 0 25px;
+
+    image-rendering: pixelated;
+    width: 290px;
+
+    box-shadow: 0px 0px 10px 1px white;
+    
+    border-radius: 200px;
+
+    background-color: rgb(0, 0, 0);
+}
+
+
+.stats{
+    color: white;
+    display: block;
+    
+    font-size: 20px;
+    padding: 3.6px 0;
+}
+
+.stats-box{
+    position: relative;
+    /* left: 25px; */
+    bottom: 8px;
+
+    margin-left: 24px;
+    
+    display: inline-block;
+    background-color: black;
+    padding: 20px 20px;
+    
+    border-radius: 40px 100px 100px 40px;
+    box-shadow: 0px 0px 1px 5px white;
+    
+    width: 280px;
+}
+/* .stats-box > div{
+    border: 1px solid white;
+} */
+
+#hp{color: rgb(255, 255, 146);}
+#attack{color: rgb(255, 98, 98);}
+#defense{color: rgb(196, 252, 113);}
+#special-attack{color:rgb(51, 177, 255)}
+#special-defense{color: rgb(255, 114, 255);}
+#speed{color: rgb(255, 168, 62);}
+#weight{color: bisque;}
+
+#statTotal{
+
+    background-color: white;
+    color: black;
+
+    padding: 8px 8px 8px 14px;
+    width: 160px;
+    margin-left: -10px;
+
+    border-radius: 10px 30px 30px 10px;
+}

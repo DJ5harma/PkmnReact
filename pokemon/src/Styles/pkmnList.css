@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+main{
+    /* padding: 10px; */
+    /* border: solid; */
+    width: 90vw;
+    position: relative;
+    top:70px;
+    left: 5vw;
+
+    /* box-shadow: 0px 20px 10px 1px black; */
+    background-color: yellow;
+
+    border-radius: 0 0 20px 20px;
+    /* position: fixed; */
+
+    margin-bottom: 100px;
+}
+.button-box{
+    /* border: solid white; */
+    position: fixed;
+    width: 90vw;
+
+    background-image: linear-gradient(to right, white, rgb(57, 55, 55));
+
+    border-radius: 0 0 20px 20px;
+}
+button{
+    margin: 10px 12px;
+    padding: 10px 20px;
+    background-color: coral;
+    
+    border-radius: 20px;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+
+    font-size: 20px;
+    width:140px;
+
+    border-radius: 20px 40px;
+
+    /* position: fixed; */
+}
+.list-container{
+    margin-top: 90px;
+    padding: 3px 10px ;
+}
+.list-container > .name-in-list{
+    cursor: pointer;
+    display: block;
+    /* border: solid; */
+
+    padding: 15px;
+    margin: 5px 10px;
+    
+    border-radius: 10px;
+
+    background-color: black;
+    color: white;
+}
+
+@keyframes text-highlight {
+    0%{
+        color: black;
+        background-color: white;
+        
+    }
+    100%{
+        color: black;
+        background-color: white;
+        padding: 20px;
+        font-size: 18px;
+     
+        /* border: solid; */
+        box-shadow: 0px 0px 0px 4px black;
+    }
+}
+
+.list-container > .name-in-list:hover{
+    animation-name: text-highlight;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
